@@ -1,13 +1,13 @@
 package com.example.trafficcontrol;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
-public class trafficLight extends Activity {
+public class Light extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_traffic_light);
+        setContentView(R.layout.activity_light);
     }
 }

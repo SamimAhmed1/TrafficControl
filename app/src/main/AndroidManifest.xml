@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".othersSignal"></activity>
+        <activity android:name=".Light"></activity>
+        <activity android:name=".othersSignal" />
         <activity android:name=".limit" />
         <activity android:name=".caution" />
-        <activity android:name=".policeSignal" />
         <activity android:name=".trafficLight" />
+        <activity android:name=".policeSignal" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

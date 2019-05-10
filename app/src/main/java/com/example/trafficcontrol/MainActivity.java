@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void trafficSignal(View view) {
-        Intent intent = new Intent(MainActivity.this, trafficLight.class);
-        startActivity(intent);
 
+    public void trafficLight(View view) {
+        Intent intent = new Intent(MainActivity.this,trafficLight.class);
+        startActivity(intent);
     }
 
     public void policeSignal(View view) {
@@ -37,4 +37,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, othersSignal.class);
         startActivity(intent);
     }
+
 }
