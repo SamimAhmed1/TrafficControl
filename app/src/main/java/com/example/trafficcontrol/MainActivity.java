@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void arrow(View view) {
+        Intent intent = new Intent(MainActivity.this, rectangularWarnings.class);
+        startActivity(intent);
+    }
 }

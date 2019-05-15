@@ -8,10 +8,16 @@
     android:background="#B3BBB3"
     tools:context=".trafficLight">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="arrowButton"
+            android:background="@drawable/ic_arrow_back_black_24dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,7 +31,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="STOP"
+                android:text="থামুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#E20B0B"
@@ -54,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="GO AHEAD"
+                android:text="চলুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#1E812B"
@@ -85,7 +91,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ALERT"
+                android:text="এলার্ট"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#E2CC0E"
@@ -114,7 +120,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RIGHT"
+                android:text="ডান বাঁক "
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#35B127"
@@ -144,7 +150,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="LEFT"
+                android:text="বাম বাঁক"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#E20B0B"
@@ -174,7 +180,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SLOWLY"
+                android:text="আস্তে চলুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="#CEBB2D"

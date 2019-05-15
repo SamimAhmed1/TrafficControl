@@ -10,4 +10,7 @@ public class trafficLight extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_traffic_light);
     }
+
+    public void arrowButton(View view) {
+    }
 }

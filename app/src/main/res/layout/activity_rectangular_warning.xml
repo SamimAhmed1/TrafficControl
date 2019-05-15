@@ -5,191 +5,140 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".limit">
-
+    tools:context=".rectangularWarnings">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textviewrectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yellow to be used permanent warnings sign and Orange for temporary warning sign"
+            android:textSize="20dp"
+            android:textColor="#000000" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:layout_below="@id/textviewrectangle"
         android:columnCount="2"
-        android:rowCount="9">
+        android:rowCount="11">
         <ImageView
-            android:id="@+id/speedlimit"
+            android:id="@+id/singlearrow"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/speedlimitahead" />
+            android:src="@drawable/singlearrow" />
 
         <ImageView
-            android:id="@+id/turnspeed"
+            android:id="@+id/doublearrow"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="0"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/turnspeed" />
+            android:src="@drawable/doublearrow" />
 
         <ImageView
-            android:id="@+id/curvespeed"
+            android:id="@+id/yelloworange"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/curvespeed" />
+            android:src="@drawable/yelloworange" />
 
         <ImageView
-            android:id="@+id/speedbump"
+            android:id="@+id/nooutlet"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/speedbump"
+            android:src="@drawable/nooutlet"
             />
 
         <ImageView
-            android:id="@+id/windingroad"
+            android:id="@+id/doublelane"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="2"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/windingroad" />
+            android:src="@drawable/doublelane" />
 
         <ImageView
-            android:id="@+id/sideroad"
+            android:id="@+id/mergelane"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="2"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/sideroad" />
+            android:src="@drawable/mergelanes" />
 
         <ImageView
-            android:id="@+id/crossroadcurve"
+            android:id="@+id/addedlane"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="3"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/crossroadcurve"
+            android:src="@drawable/addedlane"
             />
 
         <ImageView
-            android:id="@+id/straightcurve"
+            android:id="@+id/enteringroadway"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="3"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/straightcurve"
+            android:src="@drawable/enteringroadway"
             />
 
         <ImageView
-            android:id="@+id/intersectcurve"
+            android:id="@+id/addedlane2"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="4"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/intersectcurve"
+            android:src="@drawable/addedlane2"
             />
 
         <ImageView
-            android:id="@+id/sidereverse"
+            android:id="@+id/drivehighway"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="4"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/sidereverse"
+            android:src="@drawable/drivedhighway"
             />
-
         <ImageView
-            android:id="@+id/crosscurve"
+            android:id="@+id/drivedhighwayend"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="5"
             android:layout_column="0"
             android:layout_margin="10dp"
-            android:src="@drawable/crosscurve"
+            android:src="@drawable/drivedhighwayend"
             />
 
         <ImageView
-            android:id="@+id/hairpin"
+            android:id="@+id/twowaytraffic"
             android:layout_width="160dp"
             android:layout_height="180dp"
             android:layout_row="5"
             android:layout_column="1"
             android:layout_margin="10dp"
-            android:src="@drawable/hairpincurve"
+            android:src="@drawable/twowaytraffic"
             />
 
-        <ImageView
-            android:id="@+id/truckroll"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="6"
-            android:layout_column="0"
-            android:layout_margin="10dp"
-            android:src="@drawable/truckrollover"
-            />
-
-        <ImageView
-            android:id="@+id/degreeloop"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="6"
-            android:layout_column="1"
-            android:layout_margin="10dp"
-            android:src="@drawable/degreeloop" />
-        <ImageView
-            android:id="@+id/crossroad"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="7"
-            android:layout_column="0"
-            android:layout_margin="10dp"
-            android:src="@drawable/crossroad"
-            />
-
-        <ImageView
-            android:id="@+id/sideroad2"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="7"
-            android:layout_column="1"
-            android:layout_margin="10dp"
-            android:src="@drawable/sideroad2"
-            />
-
-        <ImageView
-            android:id="@+id/sideangled"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="8"
-            android:layout_column="0"
-            android:layout_margin="10dp"
-            android:src="@drawable/sideangled"
-            />
-
-        <ImageView
-            android:id="@+id/tIntersection"
-            android:layout_width="160dp"
-            android:layout_height="180dp"
-            android:layout_row="8"
-            android:layout_column="1"
-            android:layout_margin="10dp"
-            android:src="@drawable/tintersection"
-            />
     </GridLayout>
     </RelativeLayout>
 
