@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:background="#673AB7"
     tools:context=".rectangularWarnings">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +16,7 @@
             android:layout_height="match_parent"
             android:text="Yellow to be used permanent warnings sign and Orange for temporary warning sign"
             android:textSize="20dp"
-            android:textColor="#000000" />
+            android:textColor="#FFFFFF" />
 
     <GridLayout
         android:layout_width="match_parent"

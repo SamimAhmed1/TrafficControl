@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:background="#B3BBB3"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:background="#22BFD3"
     tools:context=".trafficLight">
 
 
@@ -13,11 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:onClick="arrowButton"
-            android:background="@drawable/ic_arrow_back_black_24dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,8 +31,8 @@
                 android:text="থামুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#E20B0B"
-                android:layout_marginLeft="20dp"
+                android:textColor="#DA5959"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewRed"
@@ -63,8 +60,8 @@
                 android:text="চলুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#1E812B"
-                android:layout_marginLeft="20dp"
+                android:textColor="#6DF17F"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewGreen"
@@ -94,8 +91,8 @@
                 android:text="এলার্ট"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#E2CC0E"
-                android:layout_marginLeft="20dp"
+                android:textColor="#FFF8B8"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewYellow"
@@ -120,11 +117,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ডান বাঁক "
+                android:text="ডানে বাঁক "
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#35B127"
-                android:layout_marginLeft="20dp"
+                android:textColor="#6CEC5E"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewRight"
@@ -150,11 +147,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="বাম বাঁক"
+                android:text="বামে বাঁক"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#E20B0B"
-                android:layout_marginLeft="20dp"
+                android:textColor="#E96767"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewLeft"
@@ -183,8 +180,8 @@
                 android:text="আস্তে চলুন"
                 android:textSize="25dp"
                 android:textStyle="bold"
-                android:textColor="#CEBB2D"
-                android:layout_marginLeft="20dp"
+                android:textColor="#F0DE58"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="28dp"/>
             <TextView
                 android:id="@+id/textviewturnYellow"
