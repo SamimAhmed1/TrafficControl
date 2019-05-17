@@ -3,13 +3,13 @@ package com.example.trafficcontrol;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class rectangularWarnings extends AppCompatActivity {
+public class prohibited extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rectangular_warning);
-        getSupportActionBar().setTitle("তীর  সিগন্যাল");
+        setContentView(R.layout.activity_prohibited);
+        getSupportActionBar().setTitle("Prohibited");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void trafficLight(View view) {
@@ -40,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void arrow(View view) {
         Intent intent = new Intent(MainActivity.this, rectangularWarnings.class);
+        startActivity(intent);
+    }
+
+    public void prohibited(View view) {
+        Intent intent = new Intent(MainActivity.this, prohibited.class);
         startActivity(intent);
     }
 }

@@ -9,5 +9,7 @@ public class othersSignal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_others_signal);
+        getSupportActionBar().setTitle("অন্যান্য সিগন্যাল");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

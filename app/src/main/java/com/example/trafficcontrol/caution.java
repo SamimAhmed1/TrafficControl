@@ -9,5 +9,7 @@ public class caution extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caution);
+        getSupportActionBar().setTitle("সতর্কতা");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

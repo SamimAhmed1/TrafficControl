@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:background="#FFFFFF"
+    tools:context=".prohibited">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:columnCount="2"
+            android:rowCount="4">
+            <ImageView
+                android:id="@+id/hornprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:src="@drawable/hornprohibited" />
+
+            <ImageView
+                android:id="@+id/overturnprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/overturnprohibited" />
+
+            <ImageView
+                android:id="@+id/leftturnprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:src="@drawable/leftturnprohibited" />
+
+            <ImageView
+                android:id="@+id/rightturnprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/rightturnprohibited"
+                />
+
+            <ImageView
+                android:id="@+id/uturnprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:src="@drawable/uturnprohibited" />
+
+            <ImageView
+                android:id="@+id/trucksprohibited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/trucksprohibited" />
+
+            <ImageView
+                android:id="@+id/allbehiclesprohabited"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_margin="10dp"
+                android:src="@drawable/allbehiclesprohabited"
+                />
+
+            <ImageView
+                android:id="@+id/straightcurve"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/noparking"
+                />
+
+        </GridLayout>
+    </RelativeLayout>
+
+</ScrollView>
