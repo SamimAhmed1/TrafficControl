@@ -40,5 +40,5 @@
         android:background="#B3370D"
         android:textSize="15dp"
         android:textColor="#FFFFFF"
-        android:text="    ধীরে গাড়ি চালান,নিজে বাচুন,অপরকে বাচান   "/>
+        android:text="   ধীরে গাড়ি চালান,নিজে বাচুন,অপরকে বাচান   "/>
 </RelativeLayout>
