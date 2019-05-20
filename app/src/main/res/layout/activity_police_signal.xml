@@ -13,52 +13,102 @@
         android:padding="10dp"
         android:orientation="vertical">
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/aa" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:src="@drawable/stop" />
+            android:layout_height="match_parent"
+            android:text="একই সময় সামনে এবং পিছন থেকে আসা গাড়িগুলোকে বন্ধ করার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/bb" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/allow"/>
+            android:layout_height="match_parent"
+            android:text="ডানপাশ থেকে আসা যানবাহনগুলোকে অনুমুতি দিতে এবং ডানে যাওয়ার জন্য বাম পাশের গাড়িগুলোকে অপেক্ষা করতে ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/cc" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/beckon" />
+            android:layout_height="match_parent"
+            android:text="ডানদিকের গাড়িগুলোকে এগিয়ে আসার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/dd" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/beckonleft"/>
+            android:layout_height="match_parent"
+            android:text="বামদিকের গাড়িগুলোকে এগিয়ে আসার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/ee" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/stopallow" />
+            android:layout_height="match_parent"
+            android:text=" বামপাশ থেকে আসা যানবাহনগুলো ডানপাশে যাওয়ার অপেক্ষা করতে ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/ff" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:src="@drawable/stopbehind"/>
+            android:layout_height="match_parent"
+            android:text="সামনে থেকে আসা যানবাহনগুলোকে বন্ধ করার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/gg" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/stopright" />
+            android:layout_height="match_parent"
+            android:text="পিছন থেকে আসা যানবাহনগুলোকে বন্ধ করার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/hh" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/stopturn"/>
+            android:layout_height="match_parent"
+            android:text="ডানপাশ থেকে আসা যানবাহন গুলোকে বন্ধ করার করতেএবং বামপাশের যানবাহন গুলোকে ডানে যাওয়ার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
         <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/ii" />
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/warning"/>
+            android:layout_height="match_parent"
+            android:text="সকল যানবাহন চলাচল বন্ধ করার জন্য ট্রাফিক এই সাইন ব্যবহার করে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="  \n   "/>
+
     </LinearLayout>
 
 </ScrollView>

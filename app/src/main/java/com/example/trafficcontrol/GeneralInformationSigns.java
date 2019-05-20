@@ -1,15 +1,15 @@
 package com.example.trafficcontrol;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class limit extends AppCompatActivity {
+public class GeneralInformationSigns extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_limit);
-        getSupportActionBar().setTitle("লিমিট");
+        setContentView(R.layout.activity_general_information_signs);
+        getSupportActionBar().setTitle("তথ্যমূলক সাইনসমূহ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#112638"
     android:padding="40dp"
-    android:background="#3AB7A4"
-    tools:context=".caution">
-
+    tools:context=".YesNoSign">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginTop="20dp"
-        android:text="সাধারন সতর্কতামূলক সাইনসমূহ"
+        android:text="‘হ্যাঁ-বাচক’ বাধ্যতামূলক সাইনসমূহ"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textColor="#000000"
-        android:onClick="generalcautionarysigns"
+        android:onClick="YesSigns"
         android:background="@drawable/angle_shape"/>
     <Button
         android:id="@+id/button2"
@@ -26,11 +25,11 @@
         android:layout_height="90dp"
         android:layout_marginTop="20dp"
         android:layout_below="@id/button1"
-        android:text="বিশেষ সতর্কতামুলক সাইনসমূহ"
+        android:text="‘না-বাচক’ বাধ্যতামূলক সাইনসমূহ"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textColor="#000000"
-        android:onClick="specialcautionarysigns"
+        android:onClick="NoSigns"
         android:background="@drawable/angle_shape"/>
     <TextView
         android:layout_width="wrap_content"
@@ -40,5 +39,6 @@
         android:background="#B3370D"
         android:textSize="15dp"
         android:textColor="#FFFFFF"
-        android:text="    ধীরে গাড়ি চালান,নিজে বাচুন,অপরকে বাচান   "/>
+        android:text="ট্রাফিক আইন মেনে চলুন,সড়ক দুর্ঘটনা প্রতিরোধ করুন"/>
+
 </RelativeLayout>

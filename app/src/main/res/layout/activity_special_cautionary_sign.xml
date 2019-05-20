@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:background="#000000"
+    tools:context=".SpecialCautionarySign">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/achomkabamemor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="আচমকা বামে মোড়।এই সাইন বিপজ্জনক বাঁকে ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/achomkabamemor3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="আচমকা বামে মোড়।সাময়িক বিকল্প সড়কের ক্ষেত্রে এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/samnetjungtion" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="এই সাইন টি-জাংশনের প্রবেশ সময়ে রাস্তার বিপরীতে থাকে যেনো চালক অগ্রসর হওয়ার সময় জাংশন সনাক্ত করতে পারে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/samnesamoyikbokolposorok" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="সামনে সাময়িক বিকল্প সড়ক।মেরামতের কারনে মূলরাস্তা বন্ধ থাকলে বিকল্প রাস্তার জন্য এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/samnesamoyikbokolponoksha" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" সামনে সাময়িক বিকল্প সড়কের নকশা।দুইলেন বিশিষ্ট বিকল্প রাস্তায় এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/samnesamoyikbokolponiddeshona" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="সাময়িক বিকল্প সড়কের নির্দেশনা।শহরের মধ্যে বিকল্প রাস্তায় শুরুতে এবং বরাবর জাংশনে ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/samnessamoyikvabelanebondho" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="সামনে সাময়িকভাবে লেন বন্ধ।সামনে এক বা একাধিক লেন সাময়িকভাবে বন্ধ থাকলে এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/nimnomukhigononasign" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="নিম্নমুখী গননা সাইন।রেল্পক্রসিং এর দূরত্ব বুঝতে এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/railcrossingerobostan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="এই সাইন রেলক্রসিং এর অবস্থান বুঝতে ক্রসিং পয়েন্টের কাছে এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/ekpashebopojjonokprotirodhok" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="একপাশে বিপজ্জনক প্রতিরোধক।কালভার্ট,সেতু বিপজ্জনক প্রতিরোধকে এই সাইন ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/uvoypashebopojjonokprotirodhok" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="উভয়পাশে বিপজ্জনক প্রতিরোধক।গাড়ি যেকোণ পাশ দিয়ে যেতে পারে।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  \n   "/>
+
+    </LinearLayout>
+
+</ScrollView>

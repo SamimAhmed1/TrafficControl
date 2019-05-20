@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp"
+    android:background="#000000"
+    tools:context=".RoadDirectionSigns">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:src="@drawable/agamnirdeshoksign" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ওপরের তিনটি সাইন আগাম দিকনির্দেশক সাইন হিসেবে ব্যবহ্রত হয়।প্রথম ও দ্বিতীয়টি জাতীয় মহাসড়কে ব্যবহ্রত হয়,তৃতীয়টি সাধারন সড়কে ব্যবহ্রত হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:src="@drawable/agamnirdeshoksign2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="এই আগাম সংকেত দিয়ে দুরের অধিক লেনবিশিষ্ট একদিকে চলাচল সড়কে আগাম দিকনির্দেশক প্রদান করা হয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:src="@drawable/agamnirdeshoksign3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="প্রথমটি হচ্ছে মহাসড়ক,দ্বিতীয়টি হচ্ছে সাধারন সড়ক।এই সাইন দ্বারা কাঙ্ক্ষিত গন্তব্য যেতে জাংশনের কোন সড়ক ব্যবহার করতে হবে তা বুঝায়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:src="@drawable/junctionsign" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="এই সাইন দ্বারা কাঙ্ক্ষিত গন্তব্য সাময়িক বিকল্প সড়কের দিকনির্দেশনা দেয়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:src="@drawable/mohashoroksign" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="এই সাইন জাংশনের পরে জাতীয় মহাসড়কে ব্যবহ্রত হয়,গাড়ি নির্ধারিত সড়কে চলছে কিনা এই সাইন দিয়ে বুঝা যায়।"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  \n   "/>
+    </LinearLayout>
+</ScrollView>

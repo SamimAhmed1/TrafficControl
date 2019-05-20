@@ -9,16 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".prohibited"
+        <activity android:name=".GeneralInformationSigns"
             android:parentActivityName=".MainActivity"></activity>
         <activity
-            android:name=".rectangularWarnings"
+            android:name=".NoSigns"
+            android:parentActivityName=".YesNoSign" />
+        <activity
+            android:name=".YesSigns"
+            android:parentActivityName=".YesNoSign" />
+        <activity
+            android:name=".GeneralCautionarySigns"
+            android:parentActivityName=".caution" />
+        <activity
+            android:name=".SpecialCautionarySign"
+            android:parentActivityName=".caution" />
+        <activity
+            android:name=".RoadDirectionSigns"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".othersSignal"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".limit"
+            android:name=".YesNoSign"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".caution"

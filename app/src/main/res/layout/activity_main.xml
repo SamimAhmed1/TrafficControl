@@ -20,6 +20,54 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:layout_marginTop="20dp"
+            android:text="সতর্কতামূলক সাইনসমূহ"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:onClick="cautionarysigns"
+            android:background="@drawable/angle_shape"/>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/button3"
+            android:text="'হাঁ-না বাচক'সাইনসমূহ"
+            android:onClick="YesNoSigns"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/angle_limit"/>
+        <Button
+            android:id="@+id/button99"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/button3"
+            android:text="পথনির্দেশক সাইনসমূহ"
+            android:onClick="roadDirection"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/angle_limit"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/button3"
+            android:text="তথ্যমূলক সাইনসমূহ"
+            android:onClick="generalInformation"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/angle_limit"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
             android:text="ট্রাফিক লাইট"
             android:textAllCaps="false"
             android:textSize="20dp"
@@ -27,7 +75,7 @@
             android:onClick="trafficLight"
             android:background="@drawable/angle_shape"/>
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:layout_marginTop="20dp"
@@ -38,67 +86,19 @@
             android:textColor="#000000"
             android:onClick="policeSignal"
             android:background="@drawable/angle_shape_police"/>
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/button2"
-            android:text="সতর্কতা"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            android:onClick="caution"
-            android:textColor="#000000"
-            android:background="@drawable/angle_caution"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:layout_marginTop="20dp"
-            android:layout_below="@id/button3"
-            android:text="লিমিট"
-            android:onClick="limit"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            android:textColor="#000000"
-            android:background="@drawable/angle_limit"/>
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/button4"
-            android:text="তীর  সিগন্যাল"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            android:onClick="arrow"
-            android:textColor="#000000"
-            android:background="@drawable/angle_arrow"/>
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/button5"
             android:text="অন্যান্য সিগন্যাল"
             android:textAllCaps="false"
             android:textSize="20dp"
             android:onClick="othersSignal"
             android:textColor="#000000"
             android:background="@drawable/angle_others"/>
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_marginTop="20dp"
-            android:layout_below="@id/button6"
-            android:text="সতর্কতা"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            android:onClick="prohibited"
-            android:textColor="#000000"
-            android:background="@drawable/angle_caution"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

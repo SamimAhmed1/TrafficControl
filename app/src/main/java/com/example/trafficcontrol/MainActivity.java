@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void caution(View view) {
+    public void cautionarysigns(View view) {
         Intent intent = new Intent(MainActivity.this, caution.class);
         startActivity(intent);
     }
 
-    public void limit(View view) {
-        Intent intent = new Intent(MainActivity.this, limit.class);
+    public void YesNoSigns(View view) {
+        Intent intent = new Intent(MainActivity.this, YesNoSign.class);
         startActivity(intent);
     }
 
@@ -39,13 +39,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void arrow(View view) {
-        Intent intent = new Intent(MainActivity.this, rectangularWarnings.class);
+
+    public void roadDirection(View view) {
+        Intent intent = new Intent(MainActivity.this, RoadDirectionSigns.class);
         startActivity(intent);
     }
 
-    public void prohibited(View view) {
-        Intent intent = new Intent(MainActivity.this, prohibited.class);
+    public void generalInformation(View view) {
+        Intent intent = new Intent(MainActivity.this, GeneralInformationSigns.class);
         startActivity(intent);
     }
 }
